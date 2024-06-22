@@ -1,0 +1,1561 @@
+{
+	"info": {
+		"_postman_id": "9fc11367-9078-47e8-ac96-576035dc78a6",
+		"name": "TRIAL IONIC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "34029158"
+	},
+	"item": [
+		{
+			"name": "Courses",
+			"item": [
+				{
+					"name": "Courses Authenticated Request",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYxODIyLCJleHAiOjE3MTkwNjU0MjIsIm5iZiI6MTcxOTA2MTgyMiwianRpIjoiN0VRUTF5SVlTME5aZjZZbiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x512ezL0vmBcPuH5H2m-CWCeD--iLr7wq5nU3Bd_Ur0"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "https://project.southstreetparis.com/api/courses/"
+					},
+					"response": [
+						{
+							"name": "Courses Authenticated Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/courses/"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 22 Jun 2024 13:48:06 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 2,\n        \"title\": \"GAJADI\",\n        \"description\": \"YA GAJADI AJA\",\n        \"created_at\": \"2024-06-22T13:43:23.000000Z\",\n        \"updated_at\": \"2024-06-22T13:46:50.000000Z\"\n    },\n    {\n        \"id\": 3,\n        \"title\": \"HSK1 - Module\",\n        \"description\": \"There is HSK 1 module for Mandarin Basic\",\n        \"created_at\": \"2024-06-22T13:45:02.000000Z\",\n        \"updated_at\": \"2024-06-22T13:45:02.000000Z\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Courses Details Authenticated Request",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYxODIyLCJleHAiOjE3MTkwNjU0MjIsIm5iZiI6MTcxOTA2MTgyMiwianRpIjoiN0VRUTF5SVlTME5aZjZZbiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x512ezL0vmBcPuH5H2m-CWCeD--iLr7wq5nU3Bd_Ur0"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "https://project.southstreetparis.com/api/courses/2"
+					},
+					"response": [
+						{
+							"name": "Courses Details Authenticated Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/courses/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 22 Jun 2024 13:47:52 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 2,\n    \"title\": \"GAJADI\",\n    \"description\": \"YA GAJADI AJA\",\n    \"created_at\": \"2024-06-22T13:43:23.000000Z\",\n    \"updated_at\": \"2024-06-22T13:46:50.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Courses Details Authenticated Request Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYxODIyLCJleHAiOjE3MTkwNjU0MjIsIm5iZiI6MTcxOTA2MTgyMiwianRpIjoiN0VRUTF5SVlTME5aZjZZbiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x512ezL0vmBcPuH5H2m-CWCeD--iLr7wq5nU3Bd_Ur0"
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://project.southstreetparis.com/api/courses/2?title=GAJADI&description=YA GAJADI AJA",
+							"protocol": "https",
+							"host": [
+								"project",
+								"southstreetparis",
+								"com"
+							],
+							"path": [
+								"api",
+								"courses",
+								"2"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "GAJADI"
+								},
+								{
+									"key": "description",
+									"value": "YA GAJADI AJA"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Courses Details Authenticated Request Copy",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/courses/2?title=GAJADI&description=YA GAJADI AJA",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"courses",
+										"2"
+									],
+									"query": [
+										{
+											"key": "title",
+											"value": "GAJADI"
+										},
+										{
+											"key": "description",
+											"value": "YA GAJADI AJA"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 22 Jun 2024 13:48:19 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 2,\n    \"title\": \"GAJADI\",\n    \"description\": \"YA GAJADI AJA\",\n    \"created_at\": \"2024-06-22T13:43:23.000000Z\",\n    \"updated_at\": \"2024-06-22T13:46:50.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Course Store Authenticated",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYxODIyLCJleHAiOjE3MTkwNjU0MjIsIm5iZiI6MTcxOTA2MTgyMiwianRpIjoiN0VRUTF5SVlTME5aZjZZbiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x512ezL0vmBcPuH5H2m-CWCeD--iLr7wq5nU3Bd_Ur0"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "HSK1 - Module",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "There is HSK 1 module for Mandarin Basic",
+									"type": "text"
+								}
+							]
+						},
+						"url": "https://project.southstreetparis.com/api/courses"
+					},
+					"response": []
+				},
+				{
+					"name": "Courses Authenticated Request Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYxODIyLCJleHAiOjE3MTkwNjU0MjIsIm5iZiI6MTcxOTA2MTgyMiwianRpIjoiN0VRUTF5SVlTME5aZjZZbiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x512ezL0vmBcPuH5H2m-CWCeD--iLr7wq5nU3Bd_Ur0"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": "https://project.southstreetparis.com/api/courses/1"
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": {
+					"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDU4OTA4LCJleHAiOjE3MTkwNjI1MDgsIm5iZiI6MTcxOTA1ODkwOCwianRpIjoidUx4YUY0OGVZYXplek0wVCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.8YH1teFMawR3q6Rnilqkuo6GH8mvhJsNaWqhfPB0Z0w"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Attachment",
+			"item": [
+				{
+					"name": "Attachment Authenticated Request",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYwNzA4LCJleHAiOjE3MTkwNjQzMDgsIm5iZiI6MTcxOTA2MDcwOCwianRpIjoicVp0TzVxZkpSaWpRNEVRdyIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Si2NO4tIdBQxo7vPX_zpAj5kNmJnVLc_c-KsB4jEI7o"
+							}
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4NjIxODY0LCJleHAiOjE3MTg2MjU0NjQsIm5iZiI6MTcxODYyMTg2NCwianRpIjoiMDZpT2lRdGhNY21Yd1VPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.tKOZgOEV8nnG7UexxewidixogrzLP-xBlOBXR3BvYvw"
+							}
+						],
+						"url": "https://project.southstreetparis.com/api/attachment/"
+					},
+					"response": [
+						{
+							"name": "Attachment Authenticated Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/attachment"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 21 Jun 2024 08:46:20 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Attachment Uploaded 1\",\n        \"description\": \"中文的本书\",\n        \"pdf_path\": \"。\",\n        \"file_name\": \"POP\",\n        \"course_id\": \"1\",\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    {\n        \"id\": 2,\n        \"title\": \"Attachment Uploaded 2\",\n        \"description\": \"中文的本书\",\n        \"pdf_path\": null,\n        \"file_name\": \"C:\\\\wamp64\\\\tmp\\\\php4763.tmp\",\n        \"course_id\": \"1\",\n        \"created_at\": \"2024-06-20T09:35:59.000000Z\",\n        \"updated_at\": \"2024-06-20T09:35:59.000000Z\"\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Attachment Uploaded 3\",\n        \"description\": \"中文的本书\",\n        \"pdf_path\": null,\n        \"file_name\": \"C:\\\\wamp64\\\\tmp\\\\php996.tmp\",\n        \"course_id\": \"1\",\n        \"created_at\": \"2024-06-20T09:37:54.000000Z\",\n        \"updated_at\": \"2024-06-20T09:37:54.000000Z\"\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Attachment Uploaded1\",\n        \"description\": \"JAPAN\",\n        \"pdf_path\": null,\n        \"file_name\": \"C:\\\\wamp64\\\\tmp\\\\php26B4.tmp\",\n        \"course_id\": \"2\",\n        \"created_at\": \"2024-06-20T09:38:02.000000Z\",\n        \"updated_at\": \"2024-06-20T09:38:02.000000Z\"\n    },\n    {\n        \"id\": 5,\n        \"title\": \"Attachment Uploaded 2\",\n        \"description\": \"JAPAN\",\n        \"pdf_path\": null,\n        \"file_name\": \"C:\\\\wamp64\\\\tmp\\\\phpF688.tmp\",\n        \"course_id\": \"2\",\n        \"created_at\": \"2024-06-20T09:38:55.000000Z\",\n        \"updated_at\": \"2024-06-20T09:38:55.000000Z\"\n    },\n    {\n        \"id\": 6,\n        \"title\": \"Attachment Uploaded 3\",\n        \"description\": \"JAPAN\",\n        \"pdf_path\": null,\n        \"file_name\": \"C:\\\\wamp64\\\\tmp\\\\php1EE5.tmp\",\n        \"course_id\": \"2\",\n        \"created_at\": \"2024-06-20T09:42:22.000000Z\",\n        \"updated_at\": \"2024-06-20T09:42:22.000000Z\"\n    },\n    {\n        \"id\": 7,\n        \"title\": \"Attachment Uploaded 1\",\n        \"description\": \"韩国的本书\",\n        \"pdf_path\": null,\n        \"file_name\": \"AK\",\n        \"course_id\": \"3\",\n        \"created_at\": \"2024-06-21T04:06:38.000000Z\",\n        \"updated_at\": \"2024-06-21T04:06:38.000000Z\"\n    },\n    {\n        \"id\": 8,\n        \"title\": \"Attachment Uploaded 2\",\n        \"description\": \"韩国的本书\",\n        \"pdf_path\": null,\n        \"file_name\": \"File Name 2 course\",\n        \"course_id\": \"3\",\n        \"created_at\": \"2024-06-21T07:01:37.000000Z\",\n        \"updated_at\": \"2024-06-21T07:01:37.000000Z\"\n    },\n    {\n        \"id\": 9,\n        \"title\": \"Mandarin Language\",\n        \"description\": \"这个是中文的上课，王浩先生是老师的\",\n        \"pdf_path\": null,\n        \"file_name\": \"File Name 2 course\",\n        \"course_id\": \"2\",\n        \"created_at\": \"2024-06-21T08:19:26.000000Z\",\n        \"updated_at\": \"2024-06-21T08:19:26.000000Z\"\n    },\n    {\n        \"id\": 10,\n        \"title\": \"Mandarin Language\",\n        \"description\": \"这个是中文的上课，王浩先生是老师的\",\n        \"pdf_path\": null,\n        \"file_name\": \"File Name 2 course\",\n        \"course_id\": \"2\",\n        \"created_at\": \"2024-06-21T08:23:00.000000Z\",\n        \"updated_at\": \"2024-06-21T08:23:00.000000Z\"\n    },\n    {\n        \"id\": 11,\n        \"title\": \"Mandarin Language\",\n        \"description\": \"这个是中文的上课，王浩先生是老师的\",\n        \"pdf_path\": null,\n        \"file_name\": \"File Name 2 course\",\n        \"course_id\": \"4\",\n        \"created_at\": \"2024-06-21T08:23:11.000000Z\",\n        \"updated_at\": \"2024-06-21T08:23:11.000000Z\"\n    },\n    {\n        \"id\": 12,\n        \"title\": \"早安\",\n        \"description\": \"早上好\",\n        \"pdf_path\": null,\n        \"file_name\": \"mando\",\n        \"course_id\": \"4\",\n        \"created_at\": \"2024-06-21T08:25:40.000000Z\",\n        \"updated_at\": \"2024-06-21T08:25:40.000000Z\"\n    },\n    {\n        \"id\": 13,\n        \"title\": \"早安\",\n        \"description\": \"早上好\",\n        \"pdf_path\": null,\n        \"file_name\": \"mando\",\n        \"course_id\": \"4\",\n        \"created_at\": \"2024-06-21T08:28:03.000000Z\",\n        \"updated_at\": \"2024-06-21T08:28:03.000000Z\"\n    },\n    {\n        \"id\": 14,\n        \"title\": \"早安\",\n        \"description\": \"早上好\",\n        \"pdf_path\": null,\n        \"file_name\": \"mando\",\n        \"course_id\": \"4\",\n        \"created_at\": \"2024-06-21T08:33:17.000000Z\",\n        \"updated_at\": \"2024-06-21T08:33:17.000000Z\"\n    },\n    {\n        \"id\": 15,\n        \"title\": \"早安\",\n        \"description\": \"早上好\",\n        \"pdf_path\": null,\n        \"file_name\": \"mando\",\n        \"course_id\": \"4\",\n        \"created_at\": \"2024-06-21T08:34:19.000000Z\",\n        \"updated_at\": \"2024-06-21T08:34:19.000000Z\"\n    },\n    {\n        \"id\": 16,\n        \"title\": \"早安\",\n        \"description\": \"早上好\",\n        \"pdf_path\": null,\n        \"file_name\": \"mando\",\n        \"course_id\": \"4\",\n        \"created_at\": \"2024-06-21T08:34:31.000000Z\",\n        \"updated_at\": \"2024-06-21T08:34:31.000000Z\"\n    },\n    {\n        \"id\": 17,\n        \"title\": \"早安\",\n        \"description\": \"早上好\",\n        \"pdf_path\": null,\n        \"file_name\": \"mando\",\n        \"course_id\": \"4\",\n        \"created_at\": \"2024-06-21T08:34:53.000000Z\",\n        \"updated_at\": \"2024-06-21T08:34:53.000000Z\"\n    },\n    {\n        \"id\": 18,\n        \"title\": \"早安\",\n        \"description\": \"早上好\",\n        \"pdf_path\": null,\n        \"file_name\": \"mando\",\n        \"course_id\": \"4\",\n        \"created_at\": \"2024-06-21T08:35:30.000000Z\",\n        \"updated_at\": \"2024-06-21T08:35:30.000000Z\"\n    },\n    {\n        \"id\": 19,\n        \"title\": \"早安\",\n        \"description\": \"早上好\",\n        \"pdf_path\": \"pdfs/RAMzkct8WdgSc6jxdmDsB3eap4OHXTGJW8lgUCbt.pdf\",\n        \"file_name\": \"mando\",\n        \"course_id\": \"4\",\n        \"created_at\": \"2024-06-21T08:35:57.000000Z\",\n        \"updated_at\": \"2024-06-21T08:35:57.000000Z\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Attachment Details Authenticated Request",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4NjIxODY0LCJleHAiOjE3MTg2MjU0NjQsIm5iZiI6MTcxODYyMTg2NCwianRpIjoiMDZpT2lRdGhNY21Yd1VPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.tKOZgOEV8nnG7UexxewidixogrzLP-xBlOBXR3BvYvw"
+							}
+						],
+						"url": "https://project.southstreetparis.com/api/courses/1"
+					},
+					"response": [
+						{
+							"name": "Attachment Details Authenticated Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/attachment/1"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 21 Jun 2024 09:26:01 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"title\": \"Attachment Uploaded 1\",\n    \"description\": \"中文的本书\",\n    \"pdf_path\": \"。\",\n    \"file_name\": \"POP\",\n    \"course_id\": \"1\",\n    \"created_at\": null,\n    \"updated_at\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "Attachment ByCourseId Authenticated Request",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4OTg5MzE5LCJleHAiOjE3MTg5OTI5MTksIm5iZiI6MTcxODk4OTMxOSwianRpIjoiaTNSeG1tenVuSUI4Tm51cyIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.uGYLmXSZh_PsvwVguvqi4t8OdbawEi3ihFX7Id09XKw"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "https://project.southstreetparis.com/api/attachment/course/2"
+					},
+					"response": [
+						{
+							"name": "Attachment ByCourseId Authenticated Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/attachment/course/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 21 Jun 2024 17:03:24 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 4,\n        \"title\": \"Attachment Uploaded1\",\n        \"description\": \"JAPAN\",\n        \"pdf_path\": null,\n        \"file_name\": \"C:\\\\wamp64\\\\tmp\\\\php26B4.tmp\",\n        \"course_id\": \"2\",\n        \"created_at\": \"2024-06-20T09:38:02.000000Z\",\n        \"updated_at\": \"2024-06-20T09:38:02.000000Z\"\n    },\n    {\n        \"id\": 5,\n        \"title\": \"Attachment Uploaded 2\",\n        \"description\": \"JAPAN\",\n        \"pdf_path\": null,\n        \"file_name\": \"C:\\\\wamp64\\\\tmp\\\\phpF688.tmp\",\n        \"course_id\": \"2\",\n        \"created_at\": \"2024-06-20T09:38:55.000000Z\",\n        \"updated_at\": \"2024-06-20T09:38:55.000000Z\"\n    },\n    {\n        \"id\": 6,\n        \"title\": \"Attachment Uploaded 3\",\n        \"description\": \"JAPAN\",\n        \"pdf_path\": null,\n        \"file_name\": \"C:\\\\wamp64\\\\tmp\\\\php1EE5.tmp\",\n        \"course_id\": \"2\",\n        \"created_at\": \"2024-06-20T09:42:22.000000Z\",\n        \"updated_at\": \"2024-06-20T09:42:22.000000Z\"\n    },\n    {\n        \"id\": 9,\n        \"title\": \"Mandarin Language\",\n        \"description\": \"这个是中文的上课，王浩先生是老师的\",\n        \"pdf_path\": null,\n        \"file_name\": \"File Name 2 course\",\n        \"course_id\": \"2\",\n        \"created_at\": \"2024-06-21T08:19:26.000000Z\",\n        \"updated_at\": \"2024-06-21T08:19:26.000000Z\"\n    },\n    {\n        \"id\": 10,\n        \"title\": \"Mandarin Language\",\n        \"description\": \"这个是中文的上课，王浩先生是老师的\",\n        \"pdf_path\": null,\n        \"file_name\": \"File Name 2 course\",\n        \"course_id\": \"2\",\n        \"created_at\": \"2024-06-21T08:23:00.000000Z\",\n        \"updated_at\": \"2024-06-21T08:23:00.000000Z\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Attachment DownloadCourseId Authenticated Request",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYwNzA4LCJleHAiOjE3MTkwNjQzMDgsIm5iZiI6MTcxOTA2MDcwOCwianRpIjoicVp0TzVxZkpSaWpRNEVRdyIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Si2NO4tIdBQxo7vPX_zpAj5kNmJnVLc_c-KsB4jEI7o"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "https://project.southstreetparis.com/api/attachment/downloadcourse/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Attachment Authenticated Store",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYxODIyLCJleHAiOjE3MTkwNjU0MjIsIm5iZiI6MTcxOTA2MTgyMiwianRpIjoiN0VRUTF5SVlTME5aZjZZbiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x512ezL0vmBcPuH5H2m-CWCeD--iLr7wq5nU3Bd_Ur0"
+							}
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4MzUwMzMyLCJleHAiOjE3MTgzNTM5MzIsIm5iZiI6MTcxODM1MDMzMiwianRpIjoic0RXbE9MSUJIc0RkSEF3QyIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.cpRe0KAqdV2XfpHBIal1IpACi9o72F34qsod678QE9k",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "pdf_path",
+									"type": "file",
+									"src": "postman-cloud:///1ef2ee87-e8aa-4300-81d4-b33eccba37b3"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "早上好",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "早安",
+									"type": "text"
+								},
+								{
+									"key": "file_name",
+									"value": "mando",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://project.southstreetparis.com/api/attachment/",
+							"protocol": "https",
+							"host": [
+								"project",
+								"southstreetparis",
+								"com"
+							],
+							"path": [
+								"api",
+								"attachment",
+								""
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Mandarin Language",
+									"disabled": true
+								},
+								{
+									"key": "description",
+									"value": "这个是中文的上课，王浩先生是老师的",
+									"disabled": true
+								},
+								{
+									"key": "file_name",
+									"value": "File Name 2 course",
+									"disabled": true
+								},
+								{
+									"key": "course_id",
+									"value": "4",
+									"disabled": true
+								},
+								{
+									"key": "pdf_path",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Attachment Authenticated Store",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4MzUwMzMyLCJleHAiOjE3MTgzNTM5MzIsIm5iZiI6MTcxODM1MDMzMiwianRpIjoic0RXbE9MSUJIc0RkSEF3QyIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.cpRe0KAqdV2XfpHBIal1IpACi9o72F34qsod678QE9k",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "pdf_path",
+											"type": "file",
+											"src": "postman-cloud:///1ef2ee87-e8aa-4300-81d4-b33eccba37b3"
+										},
+										{
+											"key": "course_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "早上好",
+											"type": "text"
+										},
+										{
+											"key": "title",
+											"value": "早安",
+											"type": "text"
+										},
+										{
+											"key": "file_name",
+											"value": "mando",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://127.0.0.1:8000/api/attachment/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"attachment",
+										""
+									],
+									"query": [
+										{
+											"key": "title",
+											"value": "Mandarin Language",
+											"disabled": true
+										},
+										{
+											"key": "description",
+											"value": "这个是中文的上课，王浩先生是老师的",
+											"disabled": true
+										},
+										{
+											"key": "file_name",
+											"value": "File Name 2 course",
+											"disabled": true
+										},
+										{
+											"key": "course_id",
+											"value": "4",
+											"disabled": true
+										},
+										{
+											"key": "pdf_path",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 22 Jun 2024 13:12:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"title\": \"早安\",\n    \"description\": \"早上好\",\n    \"file_name\": \"mando\",\n    \"course_id\": \"1\",\n    \"pdf_path\": \"pdfs/fqgpWk0Ybz7KQf0oWKWeYAmO6KQJoPkcP28xdRZp.pdf\",\n    \"updated_at\": \"2024-06-22T13:12:15.000000Z\",\n    \"created_at\": \"2024-06-22T13:12:15.000000Z\",\n    \"id\": 4\n}"
+						}
+					]
+				},
+				{
+					"name": "Attachment Authenticated Update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYxODIyLCJleHAiOjE3MTkwNjU0MjIsIm5iZiI6MTcxOTA2MTgyMiwianRpIjoiN0VRUTF5SVlTME5aZjZZbiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.x512ezL0vmBcPuH5H2m-CWCeD--iLr7wq5nU3Bd_Ur0"
+							}
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4MzUwMzMyLCJleHAiOjE3MTgzNTM5MzIsIm5iZiI6MTcxODM1MDMzMiwianRpIjoic0RXbE9MSUJIc0RkSEF3QyIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.cpRe0KAqdV2XfpHBIal1IpACi9o72F34qsod678QE9k",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file_name",
+									"value": "GANTINYA BARU",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "GANTITITLEBARU",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "DESKRIPTITLEBARU",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://project.southstreetparis.com/api/attachment/4?title=Mandarin Language&description=这个是中文的上课，王浩先生是老师的&file_name=File Name 2 course&course_id=2",
+							"protocol": "https",
+							"host": [
+								"project",
+								"southstreetparis",
+								"com"
+							],
+							"path": [
+								"api",
+								"attachment",
+								"4"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Mandarin Language"
+								},
+								{
+									"key": "description",
+									"value": "这个是中文的上课，王浩先生是老师的"
+								},
+								{
+									"key": "file_name",
+									"value": "File Name 2 course"
+								},
+								{
+									"key": "course_id",
+									"value": "2"
+								},
+								{
+									"key": "pdf_path",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Attachment Authenticated Delete",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYwNzA4LCJleHAiOjE3MTkwNjQzMDgsIm5iZiI6MTcxOTA2MDcwOCwianRpIjoicVp0TzVxZkpSaWpRNEVRdyIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Si2NO4tIdBQxo7vPX_zpAj5kNmJnVLc_c-KsB4jEI7o"
+							}
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4MzUwMzMyLCJleHAiOjE3MTgzNTM5MzIsIm5iZiI6MTcxODM1MDMzMiwianRpIjoic0RXbE9MSUJIc0RkSEF3QyIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.cpRe0KAqdV2XfpHBIal1IpACi9o72F34qsod678QE9k",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "pdf_path",
+									"type": "file",
+									"src": "postman-cloud:///1ef2ee87-e8aa-4300-81d4-b33eccba37b3"
+								},
+								{
+									"key": "course_id",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "早上好",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "早安",
+									"type": "text"
+								},
+								{
+									"key": "file_name",
+									"value": "mando",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://project.southstreetparis.com/api/attachment/2",
+							"protocol": "https",
+							"host": [
+								"project",
+								"southstreetparis",
+								"com"
+							],
+							"path": [
+								"api",
+								"attachment",
+								"2"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Mandarin Language",
+									"disabled": true
+								},
+								{
+									"key": "description",
+									"value": "这个是中文的上课，王浩先生是老师的",
+									"disabled": true
+								},
+								{
+									"key": "file_name",
+									"value": "File Name 2 course",
+									"disabled": true
+								},
+								{
+									"key": "course_id",
+									"value": "4",
+									"disabled": true
+								},
+								{
+									"key": "pdf_path",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "noauth"
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Lesson",
+			"item": [
+				{
+					"name": "Lesson Authenticated Request",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYwNzA4LCJleHAiOjE3MTkwNjQzMDgsIm5iZiI6MTcxOTA2MDcwOCwianRpIjoicVp0TzVxZkpSaWpRNEVRdyIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Si2NO4tIdBQxo7vPX_zpAj5kNmJnVLc_c-KsB4jEI7o"
+							}
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4NjIxODY0LCJleHAiOjE3MTg2MjU0NjQsIm5iZiI6MTcxODYyMTg2NCwianRpIjoiMDZpT2lRdGhNY21Yd1VPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.tKOZgOEV8nnG7UexxewidixogrzLP-xBlOBXR3BvYvw"
+							}
+						],
+						"url": "https://project.southstreetparis.com/api/lessons/"
+					},
+					"response": [
+						{
+							"name": "Lesson Authenticated Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4NjIxODY0LCJleHAiOjE3MTg2MjU0NjQsIm5iZiI6MTcxODYyMTg2NCwianRpIjoiMDZpT2lRdGhNY21Yd1VPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.tKOZgOEV8nnG7UexxewidixogrzLP-xBlOBXR3BvYvw"
+									}
+								],
+								"url": "http://127.0.0.1:8000/api/lessons/"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 22 Jun 2024 12:56:49 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"date_published\": \"2024-08-12\",\n        \"title\": \"JONGJAVA\",\n        \"author\": \"WANGHAO\",\n        \"article\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla. Mattis pellentesque id nibh tortor. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Semper viverra nam libero justo laoreet sit amet cursus. Purus non enim praesent elementum facilisis. In nibh mauris cursus mattis molestie a iaculis at erat. Gravida neque convallis a cras semper auctor neque vitae. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Amet dictum sit amet justo donec enim diam. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Euismod in pellentesque massa placerat. Sed faucibus turpis in eu mi bibendum neque egestas congue.\\n\\nHabitant morbi tristique senectus et. Proin fermentum leo vel orci. Accumsan lacus vel facilisis volutpat est velit egestas. Tellus integer feugiat scelerisque varius morbi enim. Quam viverra orci sagittis eu. Vitae suscipit tellus mauris a diam. Integer malesuada nunc vel risus commodo viverra maecenas. Habitant morbi tristique senectus et netus et. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Amet porttitor eget dolor morbi. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Velit ut tortor pretium viverra suspendisse potenti. Morbi tristique senectus et netus et malesuada fames. Rhoncus dolor purus non enim praesent elementum facilisis leo.\\n\\nCursus vitae congue mauris rhoncus aenean. Bibendum at varius vel pharetra vel turpis. Imperdiet massa tincidunt nunc pulvinar sapien. Et malesuada fames ac turpis egestas sed tempus urna et. Et tortor consequat id porta nibh venenatis cras sed. Bibendum enim facilisis gravida neque convallis a cras semper. Magna fermentum iaculis eu non diam phasellus. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Tincidunt id aliquet risus feugiat in. Nunc sed augue lacus viverra vitae congue eu consequat ac. Morbi enim nunc faucibus a pellentesque sit. Eu ultrices vitae auctor eu augue. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Mattis pellentesque id nibh tortor. Enim sed faucibus turpis in eu mi bibendum. Diam quis enim lobortis scelerisque fermentum dui faucibus. Orci porta non pulvinar neque laoreet suspendisse interdum.\\n\\nIn fermentum posuere urna nec tincidunt. Sit amet aliquam id diam. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Tristique senectus et netus et. Aenean vel elit scelerisque mauris pellentesque. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Erat pellentesque adipiscing commodo elit at. Felis imperdiet proin fermentum leo vel orci. Integer eget aliquet nibh praesent tristique. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Quam id leo in vitae turpis. Iaculis nunc sed augue lacus viverra vitae congue eu. Leo vel fringilla est ullamcorper. Ut diam quam nulla porttitor massa id neque. Vel pharetra vel turpis nunc eget lorem. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.\\n\\nNibh tortor id aliquet lectus proin nibh nisl. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus mauris a diam maecenas sed enim. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Enim diam vulputate ut pharetra sit amet. Gravida rutrum quisque non tellus. Netus et malesuada fames ac turpis. At urna condimentum mattis pellentesque id nibh tortor.\",\n        \"course_id\": 1,\n        \"created_at\": \"2024-06-22T12:50:58.000000Z\",\n        \"updated_at\": \"2024-06-22T12:50:58.000000Z\"\n    },\n    {\n        \"id\": 2,\n        \"date_published\": \"2024-08-12\",\n        \"title\": \"JONGJAVA\",\n        \"author\": \"WANGHAO\",\n        \"article\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla. Mattis pellentesque id nibh tortor. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Semper viverra nam libero justo laoreet sit amet cursus. Purus non enim praesent elementum facilisis. In nibh mauris cursus mattis molestie a iaculis at erat. Gravida neque convallis a cras semper auctor neque vitae. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Amet dictum sit amet justo donec enim diam. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Euismod in pellentesque massa placerat. Sed faucibus turpis in eu mi bibendum neque egestas congue.\\n\\nHabitant morbi tristique senectus et. Proin fermentum leo vel orci. Accumsan lacus vel facilisis volutpat est velit egestas. Tellus integer feugiat scelerisque varius morbi enim. Quam viverra orci sagittis eu. Vitae suscipit tellus mauris a diam. Integer malesuada nunc vel risus commodo viverra maecenas. Habitant morbi tristique senectus et netus et. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Amet porttitor eget dolor morbi. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Velit ut tortor pretium viverra suspendisse potenti. Morbi tristique senectus et netus et malesuada fames. Rhoncus dolor purus non enim praesent elementum facilisis leo.\\n\\nCursus vitae congue mauris rhoncus aenean. Bibendum at varius vel pharetra vel turpis. Imperdiet massa tincidunt nunc pulvinar sapien. Et malesuada fames ac turpis egestas sed tempus urna et. Et tortor consequat id porta nibh venenatis cras sed. Bibendum enim facilisis gravida neque convallis a cras semper. Magna fermentum iaculis eu non diam phasellus. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Tincidunt id aliquet risus feugiat in. Nunc sed augue lacus viverra vitae congue eu consequat ac. Morbi enim nunc faucibus a pellentesque sit. Eu ultrices vitae auctor eu augue. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Mattis pellentesque id nibh tortor. Enim sed faucibus turpis in eu mi bibendum. Diam quis enim lobortis scelerisque fermentum dui faucibus. Orci porta non pulvinar neque laoreet suspendisse interdum.\\n\\nIn fermentum posuere urna nec tincidunt. Sit amet aliquam id diam. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Tristique senectus et netus et. Aenean vel elit scelerisque mauris pellentesque. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Erat pellentesque adipiscing commodo elit at. Felis imperdiet proin fermentum leo vel orci. Integer eget aliquet nibh praesent tristique. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Quam id leo in vitae turpis. Iaculis nunc sed augue lacus viverra vitae congue eu. Leo vel fringilla est ullamcorper. Ut diam quam nulla porttitor massa id neque. Vel pharetra vel turpis nunc eget lorem. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.\\n\\nNibh tortor id aliquet lectus proin nibh nisl. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus mauris a diam maecenas sed enim. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Enim diam vulputate ut pharetra sit amet. Gravida rutrum quisque non tellus. Netus et malesuada fames ac turpis. At urna condimentum mattis pellentesque id nibh tortor.\",\n        \"course_id\": 1,\n        \"created_at\": \"2024-06-22T12:55:34.000000Z\",\n        \"updated_at\": \"2024-06-22T12:55:34.000000Z\"\n    },\n    {\n        \"id\": 3,\n        \"date_published\": \"2024-08-12\",\n        \"title\": \"JONGJAVA-看看这个一下\",\n        \"author\": \"王浩\",\n        \"article\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla. Mattis pellentesque id nibh tortor. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Semper viverra nam libero justo laoreet sit amet cursus. Purus non enim praesent elementum facilisis. In nibh mauris cursus mattis molestie a iaculis at erat. Gravida neque convallis a cras semper auctor neque vitae. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Amet dictum sit amet justo donec enim diam. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Euismod in pellentesque massa placerat. Sed faucibus turpis in eu mi bibendum neque egestas congue.\\n\\nHabitant morbi tristique senectus et. Proin fermentum leo vel orci. Accumsan lacus vel facilisis volutpat est velit egestas. Tellus integer feugiat scelerisque varius morbi enim. Quam viverra orci sagittis eu. Vitae suscipit tellus mauris a diam. Integer malesuada nunc vel risus commodo viverra maecenas. Habitant morbi tristique senectus et netus et. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Amet porttitor eget dolor morbi. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Velit ut tortor pretium viverra suspendisse potenti. Morbi tristique senectus et netus et malesuada fames. Rhoncus dolor purus non enim praesent elementum facilisis leo.\\n\\nCursus vitae congue mauris rhoncus aenean. Bibendum at varius vel pharetra vel turpis. Imperdiet massa tincidunt nunc pulvinar sapien. Et malesuada fames ac turpis egestas sed tempus urna et. Et tortor consequat id porta nibh venenatis cras sed. Bibendum enim facilisis gravida neque convallis a cras semper. Magna fermentum iaculis eu non diam phasellus. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Tincidunt id aliquet risus feugiat in. Nunc sed augue lacus viverra vitae congue eu consequat ac. Morbi enim nunc faucibus a pellentesque sit. Eu ultrices vitae auctor eu augue. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Mattis pellentesque id nibh tortor. Enim sed faucibus turpis in eu mi bibendum. Diam quis enim lobortis scelerisque fermentum dui faucibus. Orci porta non pulvinar neque laoreet suspendisse interdum.\\n\\nIn fermentum posuere urna nec tincidunt. Sit amet aliquam id diam. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Tristique senectus et netus et. Aenean vel elit scelerisque mauris pellentesque. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Erat pellentesque adipiscing commodo elit at. Felis imperdiet proin fermentum leo vel orci. Integer eget aliquet nibh praesent tristique. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Quam id leo in vitae turpis. Iaculis nunc sed augue lacus viverra vitae congue eu. Leo vel fringilla est ullamcorper. Ut diam quam nulla porttitor massa id neque. Vel pharetra vel turpis nunc eget lorem. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.\\n\\nNibh tortor id aliquet lectus proin nibh nisl. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus mauris a diam maecenas sed enim. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Enim diam vulputate ut pharetra sit amet. Gravida rutrum quisque non tellus. Netus et malesuada fames ac turpis. At urna condimentum mattis pellentesque id nibh tortor.\",\n        \"course_id\": 1,\n        \"created_at\": \"2024-06-22T12:56:32.000000Z\",\n        \"updated_at\": \"2024-06-22T12:56:32.000000Z\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Lesson Details Authenticated Request",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYwNzA4LCJleHAiOjE3MTkwNjQzMDgsIm5iZiI6MTcxOTA2MDcwOCwianRpIjoicVp0TzVxZkpSaWpRNEVRdyIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Si2NO4tIdBQxo7vPX_zpAj5kNmJnVLc_c-KsB4jEI7o"
+							}
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4NjIxODY0LCJleHAiOjE3MTg2MjU0NjQsIm5iZiI6MTcxODYyMTg2NCwianRpIjoiMDZpT2lRdGhNY21Yd1VPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.tKOZgOEV8nnG7UexxewidixogrzLP-xBlOBXR3BvYvw"
+							}
+						],
+						"url": "https://project.southstreetparis.com/api/lessons/1"
+					},
+					"response": [
+						{
+							"name": "Lesson Details Authenticated Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4NjIxODY0LCJleHAiOjE3MTg2MjU0NjQsIm5iZiI6MTcxODYyMTg2NCwianRpIjoiMDZpT2lRdGhNY21Yd1VPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.tKOZgOEV8nnG7UexxewidixogrzLP-xBlOBXR3BvYvw"
+									}
+								],
+								"url": "http://127.0.0.1:8000/api/lessons/1"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 22 Jun 2024 12:53:48 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"date_published\": \"2024-08-12\",\n    \"title\": \"JONGJAVA\",\n    \"author\": \"WANGHAO\",\n    \"article\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla. Mattis pellentesque id nibh tortor. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Semper viverra nam libero justo laoreet sit amet cursus. Purus non enim praesent elementum facilisis. In nibh mauris cursus mattis molestie a iaculis at erat. Gravida neque convallis a cras semper auctor neque vitae. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Amet dictum sit amet justo donec enim diam. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Euismod in pellentesque massa placerat. Sed faucibus turpis in eu mi bibendum neque egestas congue.\\n\\nHabitant morbi tristique senectus et. Proin fermentum leo vel orci. Accumsan lacus vel facilisis volutpat est velit egestas. Tellus integer feugiat scelerisque varius morbi enim. Quam viverra orci sagittis eu. Vitae suscipit tellus mauris a diam. Integer malesuada nunc vel risus commodo viverra maecenas. Habitant morbi tristique senectus et netus et. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Amet porttitor eget dolor morbi. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Velit ut tortor pretium viverra suspendisse potenti. Morbi tristique senectus et netus et malesuada fames. Rhoncus dolor purus non enim praesent elementum facilisis leo.\\n\\nCursus vitae congue mauris rhoncus aenean. Bibendum at varius vel pharetra vel turpis. Imperdiet massa tincidunt nunc pulvinar sapien. Et malesuada fames ac turpis egestas sed tempus urna et. Et tortor consequat id porta nibh venenatis cras sed. Bibendum enim facilisis gravida neque convallis a cras semper. Magna fermentum iaculis eu non diam phasellus. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Tincidunt id aliquet risus feugiat in. Nunc sed augue lacus viverra vitae congue eu consequat ac. Morbi enim nunc faucibus a pellentesque sit. Eu ultrices vitae auctor eu augue. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Mattis pellentesque id nibh tortor. Enim sed faucibus turpis in eu mi bibendum. Diam quis enim lobortis scelerisque fermentum dui faucibus. Orci porta non pulvinar neque laoreet suspendisse interdum.\\n\\nIn fermentum posuere urna nec tincidunt. Sit amet aliquam id diam. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Tristique senectus et netus et. Aenean vel elit scelerisque mauris pellentesque. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Erat pellentesque adipiscing commodo elit at. Felis imperdiet proin fermentum leo vel orci. Integer eget aliquet nibh praesent tristique. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Quam id leo in vitae turpis. Iaculis nunc sed augue lacus viverra vitae congue eu. Leo vel fringilla est ullamcorper. Ut diam quam nulla porttitor massa id neque. Vel pharetra vel turpis nunc eget lorem. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.\\n\\nNibh tortor id aliquet lectus proin nibh nisl. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus mauris a diam maecenas sed enim. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Enim diam vulputate ut pharetra sit amet. Gravida rutrum quisque non tellus. Netus et malesuada fames ac turpis. At urna condimentum mattis pellentesque id nibh tortor.\",\n    \"course_id\": 1,\n    \"created_at\": \"2024-06-22T12:50:58.000000Z\",\n    \"updated_at\": \"2024-06-22T12:50:58.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Lesson ByCourseId Authenticated Request",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYwNzA4LCJleHAiOjE3MTkwNjQzMDgsIm5iZiI6MTcxOTA2MDcwOCwianRpIjoicVp0TzVxZkpSaWpRNEVRdyIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Si2NO4tIdBQxo7vPX_zpAj5kNmJnVLc_c-KsB4jEI7o"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "https://project.southstreetparis.com/api/lessons/course/1"
+					},
+					"response": [
+						{
+							"name": "Lesson ByCourseId Authenticated Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/lessons/1"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 22 Jun 2024 12:54:35 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"date_published\": \"2024-08-12\",\n    \"title\": \"JONGJAVA\",\n    \"author\": \"WANGHAO\",\n    \"article\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla. Mattis pellentesque id nibh tortor. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Semper viverra nam libero justo laoreet sit amet cursus. Purus non enim praesent elementum facilisis. In nibh mauris cursus mattis molestie a iaculis at erat. Gravida neque convallis a cras semper auctor neque vitae. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Amet dictum sit amet justo donec enim diam. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Euismod in pellentesque massa placerat. Sed faucibus turpis in eu mi bibendum neque egestas congue.\\n\\nHabitant morbi tristique senectus et. Proin fermentum leo vel orci. Accumsan lacus vel facilisis volutpat est velit egestas. Tellus integer feugiat scelerisque varius morbi enim. Quam viverra orci sagittis eu. Vitae suscipit tellus mauris a diam. Integer malesuada nunc vel risus commodo viverra maecenas. Habitant morbi tristique senectus et netus et. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Amet porttitor eget dolor morbi. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Velit ut tortor pretium viverra suspendisse potenti. Morbi tristique senectus et netus et malesuada fames. Rhoncus dolor purus non enim praesent elementum facilisis leo.\\n\\nCursus vitae congue mauris rhoncus aenean. Bibendum at varius vel pharetra vel turpis. Imperdiet massa tincidunt nunc pulvinar sapien. Et malesuada fames ac turpis egestas sed tempus urna et. Et tortor consequat id porta nibh venenatis cras sed. Bibendum enim facilisis gravida neque convallis a cras semper. Magna fermentum iaculis eu non diam phasellus. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Tincidunt id aliquet risus feugiat in. Nunc sed augue lacus viverra vitae congue eu consequat ac. Morbi enim nunc faucibus a pellentesque sit. Eu ultrices vitae auctor eu augue. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Mattis pellentesque id nibh tortor. Enim sed faucibus turpis in eu mi bibendum. Diam quis enim lobortis scelerisque fermentum dui faucibus. Orci porta non pulvinar neque laoreet suspendisse interdum.\\n\\nIn fermentum posuere urna nec tincidunt. Sit amet aliquam id diam. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Tristique senectus et netus et. Aenean vel elit scelerisque mauris pellentesque. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Erat pellentesque adipiscing commodo elit at. Felis imperdiet proin fermentum leo vel orci. Integer eget aliquet nibh praesent tristique. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Quam id leo in vitae turpis. Iaculis nunc sed augue lacus viverra vitae congue eu. Leo vel fringilla est ullamcorper. Ut diam quam nulla porttitor massa id neque. Vel pharetra vel turpis nunc eget lorem. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.\\n\\nNibh tortor id aliquet lectus proin nibh nisl. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus mauris a diam maecenas sed enim. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Enim diam vulputate ut pharetra sit amet. Gravida rutrum quisque non tellus. Netus et malesuada fames ac turpis. At urna condimentum mattis pellentesque id nibh tortor.\",\n    \"course_id\": 1,\n    \"created_at\": \"2024-06-22T12:50:58.000000Z\",\n    \"updated_at\": \"2024-06-22T12:50:58.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Lesson Authenticated Store",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYwMjM3LCJleHAiOjE3MTkwNjM4MzcsIm5iZiI6MTcxOTA2MDIzNywianRpIjoiY1hPTVlmUENvQXpDaE55RSIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.DjmGKsipOiM8RJDa7I03-bkjOrT7dXhOD84AZpBDp1U"
+							}
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4MzUwMzMyLCJleHAiOjE3MTgzNTM5MzIsIm5iZiI6MTcxODM1MDMzMiwianRpIjoic0RXbE9MSUJIc0RkSEF3QyIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.cpRe0KAqdV2XfpHBIal1IpACi9o72F34qsod678QE9k",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "date_published",
+									"value": "2024-08-12",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "JONGJAVA-看看这个一下",
+									"type": "text"
+								},
+								{
+									"key": "author",
+									"value": "王浩",
+									"type": "text"
+								},
+								{
+									"key": "article",
+									"value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla. Mattis pellentesque id nibh tortor. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Semper viverra nam libero justo laoreet sit amet cursus. Purus non enim praesent elementum facilisis. In nibh mauris cursus mattis molestie a iaculis at erat. Gravida neque convallis a cras semper auctor neque vitae. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Amet dictum sit amet justo donec enim diam. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Euismod in pellentesque massa placerat. Sed faucibus turpis in eu mi bibendum neque egestas congue.\n\nHabitant morbi tristique senectus et. Proin fermentum leo vel orci. Accumsan lacus vel facilisis volutpat est velit egestas. Tellus integer feugiat scelerisque varius morbi enim. Quam viverra orci sagittis eu. Vitae suscipit tellus mauris a diam. Integer malesuada nunc vel risus commodo viverra maecenas. Habitant morbi tristique senectus et netus et. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Amet porttitor eget dolor morbi. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Velit ut tortor pretium viverra suspendisse potenti. Morbi tristique senectus et netus et malesuada fames. Rhoncus dolor purus non enim praesent elementum facilisis leo.\n\nCursus vitae congue mauris rhoncus aenean. Bibendum at varius vel pharetra vel turpis. Imperdiet massa tincidunt nunc pulvinar sapien. Et malesuada fames ac turpis egestas sed tempus urna et. Et tortor consequat id porta nibh venenatis cras sed. Bibendum enim facilisis gravida neque convallis a cras semper. Magna fermentum iaculis eu non diam phasellus. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Tincidunt id aliquet risus feugiat in. Nunc sed augue lacus viverra vitae congue eu consequat ac. Morbi enim nunc faucibus a pellentesque sit. Eu ultrices vitae auctor eu augue. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Mattis pellentesque id nibh tortor. Enim sed faucibus turpis in eu mi bibendum. Diam quis enim lobortis scelerisque fermentum dui faucibus. Orci porta non pulvinar neque laoreet suspendisse interdum.\n\nIn fermentum posuere urna nec tincidunt. Sit amet aliquam id diam. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Tristique senectus et netus et. Aenean vel elit scelerisque mauris pellentesque. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Erat pellentesque adipiscing commodo elit at. Felis imperdiet proin fermentum leo vel orci. Integer eget aliquet nibh praesent tristique. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Quam id leo in vitae turpis. Iaculis nunc sed augue lacus viverra vitae congue eu. Leo vel fringilla est ullamcorper. Ut diam quam nulla porttitor massa id neque. Vel pharetra vel turpis nunc eget lorem. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.\n\nNibh tortor id aliquet lectus proin nibh nisl. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus mauris a diam maecenas sed enim. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Enim diam vulputate ut pharetra sit amet. Gravida rutrum quisque non tellus. Netus et malesuada fames ac turpis. At urna condimentum mattis pellentesque id nibh tortor.",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://project.southstreetparis.com/api/lessons/",
+							"protocol": "https",
+							"host": [
+								"project",
+								"southstreetparis",
+								"com"
+							],
+							"path": [
+								"api",
+								"lessons",
+								""
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Mandarin Language",
+									"disabled": true
+								},
+								{
+									"key": "description",
+									"value": "这个是中文的上课，王浩先生是老师的",
+									"disabled": true
+								},
+								{
+									"key": "file_name",
+									"value": "File Name 2 course",
+									"disabled": true
+								},
+								{
+									"key": "course_id",
+									"value": "4",
+									"disabled": true
+								},
+								{
+									"key": "pdf_path",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lesson Delete Authenticated Request Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYwNzA4LCJleHAiOjE3MTkwNjQzMDgsIm5iZiI6MTcxOTA2MDcwOCwianRpIjoicVp0TzVxZkpSaWpRNEVRdyIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Si2NO4tIdBQxo7vPX_zpAj5kNmJnVLc_c-KsB4jEI7o"
+							}
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4NjIxODY0LCJleHAiOjE3MTg2MjU0NjQsIm5iZiI6MTcxODYyMTg2NCwianRpIjoiMDZpT2lRdGhNY21Yd1VPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.tKOZgOEV8nnG7UexxewidixogrzLP-xBlOBXR3BvYvw"
+							}
+						],
+						"url": "https://project.southstreetparis.com/api/lessons/1"
+					},
+					"response": [
+						{
+							"name": "Lesson Details Authenticated Request Copy",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4NjIxODY0LCJleHAiOjE3MTg2MjU0NjQsIm5iZiI6MTcxODYyMTg2NCwianRpIjoiMDZpT2lRdGhNY21Yd1VPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.tKOZgOEV8nnG7UexxewidixogrzLP-xBlOBXR3BvYvw"
+									}
+								],
+								"url": "http://127.0.0.1:8000/api/lessons/1"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 22 Jun 2024 13:20:13 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Lesson deleted successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Lesson Details Authenticated Delete Copy 2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDYwNzA4LCJleHAiOjE3MTkwNjQzMDgsIm5iZiI6MTcxOTA2MDcwOCwianRpIjoicVp0TzVxZkpSaWpRNEVRdyIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Si2NO4tIdBQxo7vPX_zpAj5kNmJnVLc_c-KsB4jEI7o"
+							}
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4NjIxODY0LCJleHAiOjE3MTg2MjU0NjQsIm5iZiI6MTcxODYyMTg2NCwianRpIjoiMDZpT2lRdGhNY21Yd1VPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.tKOZgOEV8nnG7UexxewidixogrzLP-xBlOBXR3BvYvw"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "date_published",
+									"value": "2024-06-23",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "TITLE",
+									"type": "text"
+								},
+								{
+									"key": "author",
+									"value": "王皓从印尼",
+									"type": "text"
+								},
+								{
+									"key": "course_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "article",
+									"value": "ARTIKAEKL",
+									"type": "text"
+								}
+							]
+						},
+						"url": "https://project.southstreetparis.com/api/lessons/4"
+					},
+					"response": [
+						{
+							"name": "Lesson Details Authenticated Request Copy",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4NjIxODY0LCJleHAiOjE3MTg2MjU0NjQsIm5iZiI6MTcxODYyMTg2NCwianRpIjoiMDZpT2lRdGhNY21Yd1VPTCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.tKOZgOEV8nnG7UexxewidixogrzLP-xBlOBXR3BvYvw"
+									}
+								],
+								"url": "http://127.0.0.1:8000/api/lessons/1"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.13"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 22 Jun 2024 13:20:13 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Lesson deleted successfully\"\n}"
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "noauth"
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/logout?",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE4MDExMDY0LCJleHAiOjE3MTgwMTQ2NjQsIm5iZiI6MTcxODAxMTA2NCwianRpIjoiR3Vvc0xFU1g5TXFyN09NZSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.GxewfbhKrzOwWztc1S3STGBByV5qCFZdsbVrckeGj5U"
+					}
+				],
+				"url": {
+					"raw": "https://project.southstreetparis.com/api/logout?",
+					"protocol": "https",
+					"host": [
+						"project",
+						"southstreetparis",
+						"com"
+					],
+					"path": [
+						"api",
+						"logout"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "r.dharmawangsa@jongjava.id",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Soerakarta2024",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://project.southstreetparis.com/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "r.dharmawangsa@jongjava.id",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Soerakarta2024",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "R. Dharmomowongso Tjhandra",
+							"type": "text"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "Soerakarta2024",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://project.southstreetparis.com/api/register"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Byb2plY3Quc291dGhzdHJlZXRwYXJpcy5jb20vYXBpL2xvZ2luIiwiaWF0IjoxNzE4ODQ4NTE4LCJleHAiOjE3MTg4NTIxMTgsIm5iZiI6MTcxODg0ODUxOCwianRpIjoiQmZkZ243YkR6engwVko0VCIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.VWmsZbGWfY-uE1Kicvp-CjkUOAFwIZPXmdIpy60ViN0",
+						"type": "text"
+					}
+				],
+				"url": "https://project.southstreetparis.com/api/courses/"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDU5MTEyLCJleHAiOjE3MTkwNjI3MTIsIm5iZiI6MTcxOTA1OTExMiwianRpIjoiZjluZGpreUlReFBBNXhBUCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.ZuX_EjBNnLzvNFvMo9GR-KR3qLCL_58IenB52p19Gu8"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Token",
+			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE5MDU5MTEyLCJleHAiOjE3MTkwNjI3MTIsIm5iZiI6MTcxOTA1OTExMiwianRpIjoiZjluZGpreUlReFBBNXhBUCIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.ZuX_EjBNnLzvNFvMo9GR-KR3qLCL_58IenB52p19Gu8"
+		}
+	]
+}
